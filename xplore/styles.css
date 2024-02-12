@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 18px;
+}
+
+nav h1, ul, li{
+    display: inline;
+}
+
+nav ul{
+    margin-left: 60%;
+}
+
+nav li{
+    color: grey;
+}
+
+nav li a{
+    text-decoration: none;
+    color:grey
+}
+
+nav li a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.searchbar{
+    padding: 40px;
+    text-align: center;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+.box{
+    width: 250px;
+    border: solid black 2px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.product{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.about{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about p{
+    padding: 30px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer p{
+    padding-top: 50px;
+    font-size: 15px;
+}
